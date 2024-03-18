@@ -1,0 +1,139 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("./front/Gilroy-Bold.woff2");
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url("./front/Gilroy-Medium.woff2");
+}
+
+@font-face {
+  font-family: Gilroy-Semibold;
+  src: url("./front/Gilroy-Semibold.woff2");
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 83px;
+}
+
+.header__logo {
+  padding-top: 5px;
+}
+
+.header__link__home {
+  color: #f25822;
+}
+
+.header__link {
+  color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.top__content {
+  margin-top: 84px;
+  margin-bottom: 260px;
+}
+
+.title {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+
+.text {
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 17px 0px 0px 0px;
+  max-width: 466px;
+}
+
+.top__content__img {
+  object-fit: none;
+}
+
+.top__button {
+  margin-top: 37px;
+  background: #fff;
+  display: flex;
+  justify-content: flex-start;
+  gap: 72px;
+}
+
+.button__Start__Now {
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 15px 36px 16px 35px;
+  border: none;
+  cursor: pointer;
+}
+.button__Watch__Video {
+  background: #fff;
+  color: #aaa;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+}
+
+.top__logos {
+  background: #fff;
+  padding-top: 97px;
+  padding-bottom: 96px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex__link {
+  display: flex;
+  justify-content: space-between;
+  width: 533px;
+}
+
+.flex__top__info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex__top__content {
+  display: flex;
+}
+
+.flex__top__button {
+  display: flex;
+  align-items: center;
+}
+
+.flex_top__logos {
+  display: flex;
+  justify-content: space-between;
+}
